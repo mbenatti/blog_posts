@@ -22,6 +22,7 @@ defmodule SntxWeb.Payload do
 
   def default_error(code \\ :unexpected_error) do
     case code do
+      :not_found -> dgettext("global", "Not found")
       :no_access -> dgettext("global", "Access denied")
       :no_user -> dgettext("users", "Account does not exist")
       :no_permissions -> dgettext("global", "Insufficient permissions")
