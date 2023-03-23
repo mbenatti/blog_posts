@@ -8,5 +8,7 @@ config :sntx, Sntx.Repo,
   url: System.get_env("SNTX_TEST_DB"),
   pool: Ecto.Adapters.SQL.Sandbox
 
+config :sntx, Sntx.Mailer, adapter: Bamboo.TestAdapter
+
 # Print only warnings and errors during test
 config :logger, level: :warn
