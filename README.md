@@ -3,22 +3,21 @@
  ### Created the support for Blog Posts
  - blog post with title, body and author
    
- ### Implement 2 queries:
+ ### Implemented 2 queries:
  - listing blog posts
  - pulling a single blog post
 
- ### Implement 3 mutations:
+ ### Implemented 3 mutations:
  - creating a single blog post
  - editing a blog post
  - deleting a blog post
- - 
-  ### restrictions:
+
+  ### Restrictions:
  - only a blog post author can edit a blog post
  - only a blog post author can delete a blog post
  - only logged in users can create a blog post
  - 2 mentioned queries should be open to public
-
-
+ 
 ## Setup
 
 ### Development
